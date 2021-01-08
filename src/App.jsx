@@ -1,11 +1,18 @@
-import logo from "./logo.svg";
-import "./App.module.scss";
+import React from "react";
+import styles from "./App.module.scss";
+import Routes from "./containers/Routes/";
+import NavBar from "./components/NavBar";
 
 function App() {
 	return (
-		<div className="App">
-			<header className="App-header"></header>
-		</div>
+		<>
+			<section className={styles.nav}>
+				<NavBar />
+			</section>
+			<section className={styles.content}>
+				<Routes />
+			</section>
+		</>
 	);
 }
 

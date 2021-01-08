@@ -1,0 +1,23 @@
+.filterArea {
+    align-content: center;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    // align-content: space-between;
+    border: 2px solid black;
+    h4 {
+        text-align: center;
+    }
+    label,
+    input {
+        padding: 10px 10px;
+        margin: 10px;
+    }
+}
+
+.filtersList {
+    list-style-type: none;
+    justify-content: space-between;
+}
